@@ -1,0 +1,44 @@
+*,
+::after,
+::before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 20px;
+  line-height: 1.5;
+  -webkit-tap-highlight-color: transparent;
+}
+body {
+  background: #fff;
+  color: #111;
+  font-size: 0.8rem;
+  overflow-x: hidden;
+  text-rendering: optimizeLegibility;
+  font-family: Gilroy-Medium;
+}
+.github{
+    position: fixed;
+    margin: 0 auto;
+    left: -46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 125px;
+    height: 40px;
+    background: linear-gradient(#041d48, #01112d);
+    text-decoration: none;
+    color: white;
+    border-radius: 10px 10px 0 0;
+    font-weight: 600;
+    cursor: pointer;
+    transform: rotate(90deg);
+    top: 30%;
+}
+.github svg{
+  margin-right:10px;
+}
